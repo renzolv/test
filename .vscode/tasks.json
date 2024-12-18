@@ -1,0 +1,21 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "Install All Recommended Extensions",
+          "type": "shell",
+          "windows": {
+            "command": "echo 'Not Supported on Windows'"
+          },
+          "command": "cat .vscode/extensions.json | jq -r '.recommendations[]' | xargs -L 1 code --install-extension",
+          "runOptions": {
+            "runOn": "folderOpen"
+          },
+          "presentation": {
+            "reveal": "silent"
+          }
+        }
+  ]
+}
