@@ -1,10 +1,11 @@
 schemaVersion: 2.2.2
 metadata:
-  name: ansible-demo2
+  name: ansible-demo
 components:
   - name: tooling-container
     container:
       image: docker.io/fernandorocagonzaleztsystems/pluginregistry-rhel8:custom
+      #image: ghcr.io/ansible/ansible-workspace-env-reference@sha256:03d7f0fe6caaae62ff2266906b63d67ebd9cf6e4a056c7c0a0c1320e6cfbebce
       memoryRequest: 256M
       memoryLimit: 6Gi
       cpuRequest: 250m
