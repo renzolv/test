@@ -5,8 +5,8 @@
 	},
 	"folders": [
 		{
-			"name": "ansible-devspaces-demo",
-			"path": "/projects/ansible-devspaces-demo"
+			"name": "ansible-workspace-custom",
+			"path": "/projects/ansible-workspace-custom"
 		}
 	]
 }
