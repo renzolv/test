@@ -23,8 +23,8 @@
 	},
 	"folders": [
 		{
-			"name": "internal-int-rhodevspaces-code-ansible-workspace-custom",
-			"path": "/projects/internal-int-rhodevspaces-code-ansible-workspace-custom"
+			"name": "test",
+			"path": "/projects/test"
 		}
 	]
 }
