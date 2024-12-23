@@ -1,12 +1,30 @@
 {
 	"settings": {
-		"ansible.lightspeed.suggestions.enabled": true,
-		"ansible.lightspeed.enabled": true
+		"files.associations": {
+			"*.yaml": "ansible",
+			"*.yml": "ansible"
+		},
+		"files.autoSave": "afterDelay",
+		"terminal.integrated.rightClickBehavior": "paste",
+		"terminal.integrated.copyOnSelection": true,
+		"ansible.python.interpreterPath": "/bin/python3.11"
+	},
+	"extensions": {
+		"recommendations": [
+			"GitHub.copilot",
+			"GitHub.copilot-chat",
+			"ms-vscode.notepadplusplus-keybindings",
+			"usernamehw.indent-one-space",
+			"ritwickdey.LiveServer",
+			"ms-python.python",
+			"redhat.vscode-yaml",
+			"redhat.ansible"
+		]
 	},
 	"folders": [
 		{
-			"name": "ansible-workspace-custom",
-			"path": "/projects/ansible-workspace-custom"
+			"name": "internal-int-rhodevspaces-code-ansible-workspace-custom",
+			"path": "/projects/internal-int-rhodevspaces-code-ansible-workspace-custom"
 		}
 	]
 }
