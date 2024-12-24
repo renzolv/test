@@ -1,24 +1,12 @@
 {
-	"settings": {
-		"files.associations": {
-			"*.yaml": "ansible",
-			"*.yml": "ansible"
-		},
 		"files.autoSave": "afterDelay",
 		"terminal.integrated.rightClickBehavior": "paste",
 		"terminal.integrated.copyOnSelection": true,
-		"ansible.python.interpreterPath": "/bin/python3.11"
 	},
 	"extensions": {
 		"recommendations": [
 			"GitHub.copilot",
 			"GitHub.copilot-chat",
-			"ms-vscode.notepadplusplus-keybindings",
-			"usernamehw.indent-one-space",
-			"ritwickdey.LiveServer",
-			"ms-python.python",
-			"redhat.vscode-yaml",
-			"redhat.ansible"
 		]
 	},
 	"folders": [
