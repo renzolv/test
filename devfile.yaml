@@ -1,6 +1,6 @@
 schemaVersion: 2.2.2
 metadata:
-  name: ansible-workspace-custom
+  name: github-workspace-custom
 components:
   - name: tooling-container
     container:
@@ -12,4 +12,4 @@ components:
       args: ['tail', '-f', '/dev/null']
       env:
         - name: 'ANSIBLE_COLLECTIONS_PATH'
-          value: '~/.ansible/collections:/usr/share/ansible/collections:/projects/ansible-workspace-custom/collections'
+          value: '~/.ansible/collections:/usr/share/ansible/collections:/projects/github-workspace-custom/collections'
